@@ -8,7 +8,6 @@ const TARGET= '00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' 
 
 let current=1 ;
 let new_string=string+current ;
-// const start = performance.now();
     console.time("exec time");
 
 for (current=1;  ;current++){
@@ -17,9 +16,8 @@ for (current=1;  ;current++){
               break;
     }
 }
-// const end = performance.now();
-    // console.log(`Execution time: ${end - start} ms`);
-    console.timeEnd("exec time");
-
+console.timeEnd("exec time");
+console.log("The nonce value is: ")
 console.log(current);
+console.log("The hash of the new string is: ")
 console.log(SHA256(new_string).toString());
