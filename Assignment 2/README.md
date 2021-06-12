@@ -38,6 +38,6 @@ To view and settle the dues, go back to the original address(of the Owner), call
 > EXTRA INFO
 > QUES. Why are some functions view and others pure?
 > ANS. The view functions are read-only function, which ensures that state variables cannot be modified after calling them. The pure functions returns the values only using the parameters passed to the function.<br>
-> A common way to perform division to calculate such percentages is mentioned here as references:
->   [COMPOUND INTEREST](https://medium.com/coinmonks/math-in-solidity-part-4-compound-interest-512d9e13041b)
+> A common way to perform division to calculate such percentages is mentioned here as references:<br>
+>   [COMPOUND INTEREST](https://medium.com/coinmonks/math-in-solidity-part-4-compound-interest-512d9e13041b)<br>
 >   [PERCENTS AND PROPORTIONS](https://medium.com/coinmonks/Math-in-solidity-part-3-percents-and-proportions-4db014e080b1)
